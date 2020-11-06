@@ -1,0 +1,25 @@
+#header {
+    position: fixed;
+    top: 0;
+    height: 10rem;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+#header a {
+    font-size: 4rem;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+#header img {
+    margin-left: 1rem;
+    width: 10rem;
+    border-radius: 50%;
+}

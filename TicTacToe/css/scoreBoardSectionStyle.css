@@ -1,0 +1,30 @@
+#score-board {
+    align-items: initial;
+    justify-content: space-between;
+    color: ivory;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: burlywood;
+}
+
+#score-board p {
+    padding: 10px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 2rem;
+}
+
+#score-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#reset-button {
+    background-color: transparent;
+    color: ivory;
+    border-style: none;
+    outline: none;
+    width: 5rem;
+    margin: 10px;
+    border-radius: 3px;
+    align-self: center;
+}

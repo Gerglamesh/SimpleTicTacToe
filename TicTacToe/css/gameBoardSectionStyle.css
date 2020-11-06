@@ -1,0 +1,47 @@
+#board-container {
+    margin: 3%;
+}
+
+#game-board {
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+}
+
+.cell {
+    text-align: center;
+    font-size: 4rem;
+    border: 0.1rem dashed ivory;
+    width: 5rem;
+    height: 5rem;
+}
+
+#start-button {
+    margin: 1rem;
+    background-color: transparent;
+    color: ivory;
+    border-style: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+#game-over-display {
+    width: 15rem;
+    align-self: center; 
+    position: absolute;  
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: burlywood;
+    background-color: rgba(0, 0, 0, 0.657);
+}
+
+#game-over-display p {
+    color: tomato;
+    font-size: 4rem;
+    text-align: center;
+}
